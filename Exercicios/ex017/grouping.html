@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    <style>
+        body{
+            background-color: slategrey;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0%;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+           
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        article{
+            background-color: grey;
+            padding: 5px;
+        }
+        article>aside{
+            background-color: rgb(94, 94, 94);
+            color: white;
+        }
+        nav{
+            background-color: grey;
+            padding: 3px;
+            box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+        }
+        nav>a{
+            text-decoration: none;
+            margin-right: 30px;
+            font-weight: bold;
+            color: white;
+        }
+        a:hover{
+            text-decoration: underline;
+            
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 4px;
+        }
+        footer>p{
+            margin: 0%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+<h1>Meu Site</h1>
+      <nav>
+        <a href="#">Inicio</a>
+
+        <a href="#">Galeria</a>
+
+        <a href="#">Localizações</a> 
+        <a href="#">Trabalhe conosco</a>
+        <a href="#">SAC</a>
+        <a href="#">Quem somos nós</a>
+        <a href="#">Fale conosco</a>
+        
+       </nav>
+    </header>
+    <main>
+<section id="politica">
+    
+    <article>
+        <h2>Politica internacional</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, modi numquam eius saepe fugit consequuntur inventore quam autem sit magni minima incidunt aliquid optio ratione vero aperiam eos, tenetur tempore.</p>
+        <aside>
+            
+            <p>Escrito por Natanael</p>
+        </aside>
+        
+    </article>
+</section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Natanael</p>
+    </footer>
+</body>
+</html>
