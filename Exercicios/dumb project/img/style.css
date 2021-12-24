@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%,#8E5D52 81.61%);
+}
