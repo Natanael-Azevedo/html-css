@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    background: url('./paula-vermeulen-_f2m3mEkaaU-unsplash.jpg') no-repeat;
+    background-size: cover;
+    color: #322f31;
+    
+}
+
+#window{
+    margin: auto;
+    background-color: #f3f1f3;
+ 
+    border: solid 0.1rem #6e6e6e4d;
+
+    box-shadow: 0 1rem 3rem #0000004d;
+
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+#title-bar {
+    background-color: #f9f4f8 ;
+    border-bottom: solid 0.1rem #dcdcdc;
+
+}
+
+#dots {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+#dots span{
+  height: 1rem;  
+  width: 1rem;
+  margin-right:0.6rem;
+  background-color: #cacaca;
+  border-radius: 50%;
+}
+
+#dots span:nth-child(1) {background-color: #fc5653;}
+#dots span:nth-child(2) {background-color: #33c748;}
+#dots span:nth-child(3) {background-color: #fdbc40;}
+
+
+#window-body{
+    padding: 6rem 10rem;
+}
